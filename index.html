@@ -1,37 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration form</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/vendor/css/style.css">
 </head>
+
 <body>
-    <h1>Registration form </h1>
-   <form action="" method="post">
-First Name <input type="mark"><br>
-<br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="navbar navbar-expand-lg bg-info navbar-warning  ">
+        <div class="navbar-brand">
+          <img class="w-25 " src="/vendor/img/logo.png" alt="">
+        </div>
+        <ul class="navbar-nav ">
+          <li class="navbar-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="navbar-item"><a href="#" class="nav-link">Products </a></li>
+          <li class="navbar-item"><a href="#" class="nav-link">About Us</a></li>
+          <li class="navbar-item"><a href="#" class="nav-link">Contact Us</a></li>
 
-Last Name <input type="otto"><br>
-<br>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2 mx-5" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
 
-User Name <input type="" name="" id=""><br>
-<br>
+      <div class="col-md-3">
 
-City <input type="" name="" id=""><br>
-<br>
-State  <select name="" id="">
-    <option value="Choose">Choose</option>
-    <option value="India">India</option>
-    <option value="USA">USA</option>
-   
-</select><br>
-<br>
-Zip <input type=""><br>
-<br>
- <input type="checkbox" value="">Agree to terms and conditions <br>
-<br>
-<input type="Submit">
-</form>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row mt-4 mb-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="/vendor/img/download.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Description Of Our Store</h5>
+            <p class="card-text">‘Fradel and spies’ was produced in view of the petted darling.
+              We see pets as individuals from the family, so our point is to give clients items and administrations that
+              can guarantee their darling pet will appreciate an upbeat, solid life.</p>
+            <a href="#" class="btn btn-primary">Next</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://images.unsplash.com/photo-1480044965905-02098d419e96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                class="img-w-100 " alt="">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://media.istockphoto.com/photos/cute-fluffy-friends-a-cat-and-a-dog-catch-a-flying-butterfly-in-a-picture-id1349349263?b=1&k=20&m=1349349263&s=170667a&w=0&h=LnYWm6cetSplJ6nOqLy0JSchTOcWbJBEbdMcZWWBX0Y="
+                class="img-w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1548767797-d8c844163c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGV0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                class="img-w-100" alt="">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1480044965905-02098d419e96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="img-w-100" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://media.istockphoto.com/photos/cute-fluffy-friends-a-cat-and-a-dog-catch-a-flying-butterfly-in-a-picture-id1349349263?b=1&k=20&m=1349349263&s=170667a&w=0&h=LnYWm6cetSplJ6nOqLy0JSchTOcWbJBEbdMcZWWBX0Y=" class="img-w-100" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1548767797-d8c844163c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGV0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="img-w-100" alt="">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div> -->
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
